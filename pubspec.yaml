@@ -36,6 +36,8 @@ flutter:
     - assets/images/book2.gif
     - assets/images/book3.gif
     - assets/images/book4.gif
+    - assets/images/plus.png
+
 
   fonts:
     - family: Fontello

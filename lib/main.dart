@@ -28,8 +28,8 @@ class _BookReaderHomePageState extends State<BookReaderHomePage> with SingleTick
 
   initState() {
     super.initState();
-    controller = new AnimationController(duration: const Duration(milliseconds: 250), vsync: this);
-    animation = new Tween(begin: 1.0, end: 0.0).animate(controller)
+    controller = new AnimationController(duration: const Duration(milliseconds: 150), vsync: this);
+    animation = new Tween(begin: 1.0, end: .5).animate(controller)
       ..addListener(() {
         setState(() {});
       });
